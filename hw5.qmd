@@ -6,6 +6,8 @@ editor: visual
 
 ```{r}
 library(tidyverse)
+library(dplyr)
+
 ```
 
 
@@ -36,5 +38,10 @@ The `echo: false` option disables the printing of code (only output is displayed
 gss_cat %>% 
   ggplot(aes(tvhours, partyid)) +
   geom_col()
+```
+
+```{r}
+# New figure 2
+
 ```
 
